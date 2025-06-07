@@ -5,7 +5,7 @@ from urllib.parse import urlparse
 import tempfile
 import hashlib
 
-from CloudflareBypasser import CloudflareBypasser
+from CloudflareBypassForScraping.CloudflareBypasser import CloudflareBypasser
 from DrissionPage import ChromiumPage, ChromiumOptions
 from fastapi import FastAPI, HTTPException, Response
 from pydantic import BaseModel

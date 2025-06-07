@@ -1,7 +1,7 @@
 import time
 import logging
 import os
-from CloudflareBypasser import CloudflareBypasser
+from CloudflareBypassForScraping.CloudflareBypasser import CloudflareBypasser
 from DrissionPage import ChromiumPage, ChromiumOptions
 
 # Configure logging
